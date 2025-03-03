@@ -1153,21 +1153,11 @@ h6 {
   }
 }
 @media (min-width:61.99875em) {
-  .page {
-    margin-top: 114px
-  }
   .container {
     padding: 0 40px
   }
-  .header {
-    height: 114px;
-    padding: 40px 0 30px
-  }
   .header__burger:hover span {
     background-color: #777
-  }
-  .header__logo {
-    height: 44px
   }
   .header__lang-btn:hover {
     color: #777
@@ -1177,10 +1167,6 @@ h6 {
   }
   .menu::-webkit-scrollbar-thumb:hover {
     background: #000
-  }
-  .menu {
-    top: 114px;
-    max-height: calc(100vh - 114px)
   }
   .menu__body {
     padding: 80px 40px
@@ -1192,17 +1178,13 @@ h6 {
   .menu__link:hover {
     color: #777
   }
-  .footer {
-    padding: 90px 0
-  }
   .footer .container {
     flex-direction: row;
     justify-content: space-between;
     align-items: center
   }
   .footer__column-left {
-    align-items: flex-start;
-    gap: 80px
+    align-items: flex-start
   }
   .footer__socials {
     align-items: flex-start;
@@ -1213,7 +1195,7 @@ h6 {
   }
   .footer__column-right {
     align-items: flex-end;
-    gap: 80px
+    gap: 100px
   }
   .footer__navigation {
     flex-direction: row
@@ -1228,7 +1210,8 @@ h6 {
   }
   .footer__contacts {
     gap: 30px;
-    align-items: flex-end
+    flex-direction: row;
+    justify-content: flex-end
   }
   .footer__contact:hover svg {
     fill: #767676
@@ -1359,22 +1342,8 @@ h6 {
   }
 }
 @media (min-width:79.99875em) {
-  .page {
-    margin-top: 142px
-  }
   .container {
     padding: 0 60px
-  }
-  .header {
-    height: 142px;
-    padding: 50px 0 40px
-  }
-  .header__logo {
-    height: 52px
-  }
-  .menu {
-    top: 142px;
-    max-height: calc(100vh - 142px)
   }
   .menu__body {
     padding: 80px 60px
@@ -1382,12 +1351,6 @@ h6 {
   .menu__link {
     font-size: 45px;
     line-height: 65px
-  }
-  .footer {
-    padding: 110px 0
-  }
-  .footer__column-left {
-    gap: 100px
   }
   .title {
     margin-bottom: 55px
